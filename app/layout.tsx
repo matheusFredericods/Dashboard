@@ -24,7 +24,7 @@ export default function RootLayout({
       lang="pt-BR"
       className={poppins.className + " h-full antialiased"}
     >
-      <body className="min-h-full flex flex-col">
+      <body className="flex min-h-screen">
         <Sidebar/>
         {children}
         </body>
