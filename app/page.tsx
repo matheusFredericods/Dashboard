@@ -2,13 +2,17 @@ import {Card,CardContent,CardDescription,CardHeader,CardTitle} from "@/component
 import { DollarSign,TrendingUp,TrendingDown,ShoppingCart,Users,Activity } from "lucide-react"
 import ChartOverView from "@/components/chart"
 import Sales from "@/components/sales";
+import DarkTheme from "@/components/darktheme";
 
 export default function Home() {
   return (
-        <main className="flex-1 p-4 pt-16 md:pt-3.5">
-          <h1 className="font-semibold text-2xl">
+        <main className="flex-1 p-4 pt-16 md:pt-5">
+          <div className="flex items-center justify-between mb-4">
+           <h1 className="font-semibold text-2xl">
             Visão Geral
             </h1>
+            <DarkTheme />
+          </div>
           <section className="grid grid-cols-2 gap-4 mt-2">
               <Card>
                 <CardHeader>
